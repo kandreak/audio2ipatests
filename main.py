@@ -48,7 +48,7 @@ model = model.to(device)
 model.eval()
 
 # Transcribe audio
-audio_files = ["audio_samples/parola.wav"]
+audio_files = ["audio_samples/musica.wav"]
 predictions = model.transcribe(audio_files)
 
 # Output: list of IPA strings like "ˈhɛˌloʊ̆"
